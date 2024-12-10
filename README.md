@@ -193,21 +193,21 @@ A Door-Scanner API Server, written in Node.js(20lts).
 ## Screenshots
 
 ### 1. 메인 화면
-![Main Screen](assets/images/main-screen.png)
+![Main Screen](assets/images/main.png)
 
 Road-Score 메인 화면으로, 각 지역에 보행로 알고리즘으로 산출된 점수를 부여한 화면이 노출됩니다.
 
 ---
 
 ### 2. 건물 화면
-![Buildings Screen](assets/images/buildings-screen.png)
+![Buildings Screen](assets/images/buildings.png)
 
 수집한 건물들의 빌딩 폴리곤을 보여줍니다. 해당건물들은 접근성 점수를 부여받고 점수에 따른 색상을 가지게됩니다.
 
 ---
 
 ### 3. 건물 상세 정보
-![Building Detail Screen](assets/images/building-detail-screen.png)
+![Building Detail Screen](assets/images/building-dtl.png)
 
 선택한 건물의 상세 정보를 보여줍니다. 출입구 정보, 사진등 , 주소등 해당 건물의 데이터를 노출합니다.
 
