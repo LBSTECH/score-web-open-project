@@ -181,3 +181,41 @@ Please see the [contributing guidelines](CONTRIBUTING.md)
 ## License
 
 This library is licensed under Apache 2.0. Full license text is available in [LICENSE](LICENSE).
+
+# Door-Scanner API Server
+
+A Door-Scanner API Server, written in Node.js(20lts). 
+
+[![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run)
+
+---
+
+## Screenshots
+
+### 1. 메인 화면
+![Main Screen](assets/images/main-screen.png)
+
+Road-Score 메인 화면으로, 각 지역에 보행로 알고리즘으로 산출된 점수를 부여한 화면이 노출됩니다.
+
+---
+
+### 2. 건물 화면
+![Buildings Screen](assets/images/buildings-screen.png)
+
+수집한 건물들의 빌딩 폴리곤을 보여줍니다. 해당건물들은 접근성 점수를 부여받고 점수에 따른 색상을 가지게됩니다.
+
+---
+
+### 3. 건물 상세 정보
+![Building Detail Screen](assets/images/building-detail-screen.png)
+
+선택한 건물의 상세 정보를 보여줍니다. 출입구 정보, 사진등 , 주소등 해당 건물의 데이터를 노출합니다.
+
+---
+
+## Prerequisite
+
+* Enable the Cloud Run API via the [console](https://console.cloud.google.com/apis/library/run.googleapis.com?_ga=2.124941642.1555267850.1615248624-203055525.1615245957) or CLI:<IMAGE ID>
+
+```bash
+gcloud services enable run.googleapis.com
