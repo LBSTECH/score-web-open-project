@@ -1,0 +1,9 @@
+.apexcharts-tooltip {
+    z-index: 9999 !important; /* Use !important to override any other styles */
+    color: black !important; /* Ensuring the text color is black */
+}
+
+/* If the tooltip text specifically needs to be targeted */
+.apexcharts-tooltip .apexcharts-tooltip-text-y-value {
+    color: black !important;
+}

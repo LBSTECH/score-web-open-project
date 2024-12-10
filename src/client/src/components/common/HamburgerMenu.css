@@ -1,0 +1,15 @@
+/* 드롭다운 메뉴 스타일 */
+.dropdown-menu {
+    transition: all 0.5s ease; /* 애니메이션 전환 효과 */
+    transform: scaleY(0); /* 초기 상태: 접혀있음 */
+    transform-origin: top; /* 애니메이션 시작 위치 */
+    opacity: 0; /* 초기 상태: 투명함 */
+    height: 0; /* 초기 상태: 높이 0 */
+}
+
+/* 메뉴가 표시될 때의 스타일 */
+.dropdown-menu.show {
+    transform: scaleY(1); /* 최종 상태: 펼쳐짐 */
+    opacity: 1; /* 최종 상태: 불투명함 */
+    height: auto; /* 최종 상태: 자동 높이 조정 */
+}

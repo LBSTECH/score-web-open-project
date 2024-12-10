@@ -1,0 +1,189 @@
+[
+    {
+        "component": "road",
+        "data": [
+            {
+                "att" : "status",
+                "type": "보행로",
+                "titles": [
+                    {
+                        "title": "보도-경사도"
+                    },
+                    {
+                        "title": "보도-보도폭"
+                    },
+                    {
+                        "title": "보도-연석"
+                    },
+                    {
+                        "title": "보도-점자블럭"
+                    },
+                    {
+                        "title": "보차혼용로-경사도"
+                    },
+                    {
+                        "title": "보차혼용로-보도폭"
+                    },
+                    {
+                        "title": "횡단보도-신호등"
+                    },
+                    {
+                        "title": "횡단보도-음향신호기"
+                    },
+                    {
+                        "title": "횡단보도-연석"
+                    }
+                ]
+            },
+            {
+                "att" : "status",
+                "type": "보행시설",
+                "titles": [
+                    {
+                        "title": "가로등"
+                    },
+                    {
+                        "title": "가로수"
+                    },
+                    {
+                        "title": "가드펜스"
+                    },
+                    {
+                        "title": "CCTV"
+                    },
+                    {
+                        "title": "점자블럭"
+                    },
+                    {
+                        "title": "음향신호기"
+                    },
+                    {
+                        "title": "연석"
+                    }
+                ]
+            },
+            {
+                "att" : "conditions",
+                "type": "장애물",
+                "titles": [
+                    {
+                        "title": "차량"
+                    },
+                    {
+                        "title": "판매시설"
+                    },
+                    {
+                        "title": "이상시설"
+                    },
+                    {
+                        "title": "쓰레기"
+                    },
+                    {
+                        "title": "기타"
+                    }
+                ]
+            },
+            {
+                "att" : "conditions",
+                "type": "보행혼잡도",
+                "titles": [
+                    {
+                        "title": "평일"
+                    },
+                    {
+                        "title": "휴일"
+                    }
+                ]
+            },
+            {
+                "att" : "conditions",
+                "type": "날씨",
+                "titles": [
+                    {
+                        "title": "온,습도"
+                    },
+                    {
+                        "title": "강수"
+                    },
+                    {
+                        "title": "공기질"
+                    },
+                    {
+                        "title": "폭염"
+                    },
+                    {
+                        "title": "침수"
+                    },
+                    {
+                        "title": "한파"
+                    },
+                    {
+                        "title": "결빙"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "component": "acsble",
+        "data": [
+            {
+                "att" : "build",
+                "type": "출입구",
+                "titles": [
+                    {
+                        "title": "문"
+                    },
+                    {
+                        "title": "진입로"
+                    }
+                ]
+            },
+            {
+                "att" : "build",
+                "type": "내부 이용시설",
+                "titles": [
+                    {
+                        "title": "점자블럭"
+                    },
+                    {
+                        "title": "장애인 엘리베이터"
+                    },
+                    {
+                        "title": "개방화장실"
+                    }
+                ]
+            },
+            {
+                "att" : "poi",
+                "type": "출입구",
+                "titles": [
+                    {
+                        "title": "문"
+                    },
+                    {
+                        "title": "진입로"
+                    }
+                ]
+            },
+            {
+                "att" : "poi",
+                "type": "내부 이용시설",
+                "titles": [
+                    {
+                        "title": "무장애 키오스크 유무"
+                    },
+                    {
+                        "title": "점자블럭"
+                    },
+                    {
+                        "title": "휠체어 이용 가능 테이블"
+                    },
+                    {
+                        "title": "장애인 화장실"
+                    }
+                ]
+            }
+        ]
+    }
+]

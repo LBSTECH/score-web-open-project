@@ -1,0 +1,51 @@
+.toggle-bar {
+  width: 150px; /* Length of the bar */
+  height: 30px; /* Thickness of the bar */
+  border-radius: 15px; /* Circular edges */
+  background-color: grey; /* Default background color */
+  position: absolute;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  z-index: 1;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.label {
+  font-size: 18px;
+}
+
+.label-2d {
+  margin-left: 10px;
+  z-index: 1;
+  color: whitesmoke;
+}
+
+.label-3d {
+  margin-right: 10px;
+  z-index: 1;
+  color: #663300;
+}
+
+.toggle-bar.on, .toggle-bar.off {
+  overflow: hidden; /* Prevents the indicator from spilling out of the bar */
+}
+
+.indicator {
+  width: 50%; /* Half the width of the toggle-bar */
+  height: 100%; /* Full height of the toggle-bar */
+  background-color: rgb(255, 192, 0); /* White color for the indicator */
+  position: absolute;
+  transition: left 0.3s ease;
+
+}
+
+.indicator.on {
+  left: 50%; /* Move to the right half when on */
+}
+
+.indicator.off {
+  left: 0; /* Stay at the left half when off */
+}
